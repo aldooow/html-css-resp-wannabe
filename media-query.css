@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 /* display < 420px */
+=======
+>>>>>>> master
 @media screen and (max-width: 419px) {
   body {
     background: #ffffff;
     font-size: 25px;
     color: #1b3c59;
+<<<<<<< HEAD
+=======
+    width: 419px;
+>>>>>>> master
     font-family: "Comic Sans MS", cursive, sans-serif
   }
   body h3 {
@@ -15,13 +22,21 @@
   }
   body .container .row {
     width: 419px;
+<<<<<<< HEAD
     margin: 10px;
+=======
+    margin-top: 0;
+>>>>>>> master
     padding: 20px;
   }
   body .container.grey {
     background: #1b3c59;
     border: 3px solid grey;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 25px;
+>>>>>>> master
     width: 450px;
   }
   body #lezioni .row>.left,
@@ -41,6 +56,7 @@
     margin: 20px 0;
   }
 }
+<<<<<<< HEAD
 /* END display < 420px */
 
 /* display tablet (max 768px) */
@@ -90,3 +106,5 @@
   }
 }
 /* END display tablet (768px) */
+=======
+>>>>>>> master
