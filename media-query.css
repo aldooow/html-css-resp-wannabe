@@ -1,0 +1,43 @@
+@media screen and (max-width: 419px) {
+  body {
+    background: #ffffff;
+    font-size: 25px;
+    color: #1b3c59;
+    width: 419px;
+    font-family: "Comic Sans MS", cursive, sans-serif
+  }
+  body h3 {
+    color: #60ce4e;
+  }
+  body img {
+    height: 175px;
+    margin-top: 25px;
+  }
+  body .container .row {
+    width: 419px;
+    margin-top: 0;
+    padding: 20px;
+  }
+  body .container.grey {
+    background: #1b3c59;
+    border: 3px solid grey;
+    border-radius: 25px;
+    width: 450px;
+  }
+  body #lezioni .row>.left,
+  body #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+  body #steps .row>.left,
+  body #steps .row>.central,
+  body #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+  body #steps,
+  body #why {
+    color: #ffffff;
+    margin: 20px 0;
+  }
+}
