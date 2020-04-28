@@ -1,16 +1,16 @@
-<<<<<<< HEAD
+
 /* display < 420px */
-=======
->>>>>>> master
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   body {
     background: #ffffff;
     font-size: 25px;
     color: #1b3c59;
-<<<<<<< HEAD
-=======
     width: 419px;
->>>>>>> master
     font-family: "Comic Sans MS", cursive, sans-serif
   }
   body h3 {
@@ -22,22 +22,16 @@
   }
   body .container .row {
     width: 419px;
-<<<<<<< HEAD
     margin: 10px;
-=======
     margin-top: 0;
->>>>>>> master
     padding: 20px;
   }
   body .container.grey {
     background: #1b3c59;
     border: 3px solid grey;
-<<<<<<< HEAD
     border-radius: 5px;
-=======
     border-radius: 25px;
->>>>>>> master
-    width: 450px;
+    
   }
   body #lezioni .row>.left,
   body #lezioni .row>.right {
@@ -56,11 +50,15 @@
     margin: 20px 0;
   }
 }
-<<<<<<< HEAD
 /* END display < 420px */
 
 /* display tablet (max 768px) */
 @media screen and (min-width: 420px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   body {
     width: 768px;
     background: #ffffff;
@@ -106,5 +104,3 @@
   }
 }
 /* END display tablet (768px) */
-=======
->>>>>>> master
